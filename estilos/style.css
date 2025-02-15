@@ -24,7 +24,7 @@ header {
 }
 
 menu {
-    display: noe;
+    display: none;
 }
 
 menu > li {
@@ -67,4 +67,20 @@ article > p {
     text-align: justify;
     margin-bottom: 10px;
     text-indent: 30px;
+}
+
+#burg {
+    background-color: rgb(27, 26, 25);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+#burg:hover {
+    background-color: white;
+    color: black;
+
 }
